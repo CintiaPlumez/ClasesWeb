@@ -1,0 +1,84 @@
+body {
+    /*background-color: rgb(34, 59, 114);/*fondo de la pagina negra*/
+    font-family: 'COMMISSIONER, monospace; /*fuente*/
+    text-align: left, justify;
+    margin: 0; /* elimina el margen predeterminado */
+    padding: 0; /* elimina el relleno predeterminado */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+ 
+}
+
+button {
+    background-color: whitesmoke; /*color del boton*/
+    color: rgb(26, 22, 22); /*color del texto del boton*/
+    padding: 10px; /*espaciado interno*/
+    border: 1px; /* borde del boton*/
+    border-radius: 4px; /*bordes redondeados*/
+    cursor: pointer; /*cambia el cursor a una mano cuando pasa por el boton*/
+ 
+}
+button:hover { /*efecto de pasar el mouse por sobre el boton*/
+    background-color: lightBlue; /*cambia el fondo a negro*/
+    color: rgb(241, 173, 173); /*cambia el texto*/
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+header {
+    background-color: rgb(37, 180, 177); /* fondo del header */
+    color: rgb(0, 0, 0); /* color del texto del header */
+    padding: 10px; /* relleno */
+    text-align: center; /* alineación del texto */
+}
+main {
+    background-color: rgb(19, 0, 33); 
+    flex: 1;
+    padding: 10px; /* relleno */
+    color: rgb(255, 255, 255); /* color del texto */
+    display: flex;
+    justify-content: center; /* centra horizontalmente */
+    align-items: center; /* centra verticalmente */
+    flex-direction: column; /* organiza el contenido en columna */
+}
+main img {
+    max-width: 100%; /* asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* mantiene la proporción de la imagen */
+}
+
+nav {
+    background-color: rgb(255, 255, 255); /* fondo del nav */
+    padding: 10px; /* relleno */
+   
+}
+
+
+nav ul {
+    list-style-type: none; /* elimina los puntos de la lista */
+    padding: 0; /* elimina el relleno de la lista */
+    margin: 0; /* elimina el margen de la lista */
+    display: flex;
+    justify-content: space-around; /* distribuye los elementos de la lista */
+}
+nav ul li {
+    margin: 0 10px; /* margen entre los elementos de la lista */
+}
+nav ul li a {
+    color:  rgb(0, 0, 0);/* color del texto de los enlaces */
+    text-decoration: none; /* elimina el subrayado de los enlaces */
+}
+
+
+footer {
+    background-color: rgb(0, 0, 0); /* fondo del footer */
+    color: rgb(255, 255, 255); /* color del texto del footer */
+    text-align: center; /* alineación del texto */
+    padding: 10px; /* relleno */
+    position: fixed; /* posición fija */
+    bottom: 0; /* al fondo de la página */
+    width: 100%; /* ancho completo */
+    border-top: 5px solid #000; /* borde superior */
+}
