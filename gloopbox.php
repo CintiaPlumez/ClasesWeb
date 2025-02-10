@@ -22,6 +22,7 @@
         <main>
         
           <img src="LOGOGLOOP.jpeg"" alt=".....">
+        </main>
         <footer>
             <?php
                 echo "@gloopbox  |  [Wp]: 2262 - 30 - 1234   |  Neochea BA Arg";          
