@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h2>CCALCULADORA IMC</h2>
+    <h2>CCALCULADORA </h2>
     <h3>- Indice de Masa Corporal - </h3>
     <h4>Ingrese los datos requeridos</h4>
     <div>
